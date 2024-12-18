@@ -16,7 +16,7 @@ public class Main {
     private static String generaCasa_Automobilistica() {
         String[] casa_automobilistica = {"FIAT", "TOYOTA", "BMW", "AUDI", "FERRARI", "MERCEDES", "PORSCHE", "MG", "ASTON MARTIN", "LANCIA", "ALFA ROMEO", "TESLA", "MASERATI", "LAMBORHINI", "SKODA", "SEAT"};
         return casa_automobilistica[new Random().nextInt(casa_automobilistica.length)];
-    }1
+    }
 
 
     public static void main(String[] args) {
